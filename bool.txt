@@ -1,0 +1,192 @@
+a program is a sequence of definitions and commands definitions evaluated
+command executed by Python interpreter
+
+commands (statements) instruct interpreter to do something
+
+can be typed directly in a shell or stored in a file 
+
+OBJECTS
+
+programs manipulate  data objects
+
+
+objects have a type that defines the kind of things the program can do to them
+
+objects are: scalar or not scalar
+
+scalar - can't be subdivided
+
+non-scalar 
+
+int - represents integers
+float - represents real numbers
+bool - represent Boolean values True and False
+NoneType - special, and has one value, None
+can use type() to see the value of an object
+
+3:57
+
+equal sign is an assignment
+
+pi = 3.14159
+
+pi_approx = 22/7
+
+value stored in computer memory
+
+an assignment binds name to value
+
+retrieve value by name
+
+pi
+
+// integer division
+
+give names
+
+reuse names
+
+# comment
+
++= 1 
+
+assignment plus increment
+
+re bind
+
+
+i and j are any variable names
+
+i > j
+
+i >= j
+
+i < j
+
+i <= j
+
+i == j equality
+
+i != j inequality
+
+logic operators on booleans
+
+not a  
+
+a and b True if both are True
+
+a or b False if Both are False, True if any are true or both are true
+
+branching programs
+
+the simplest branching is a conditional
+
+A test (True or False)
+
+A block of code to execute if the test is true
+an optional block for if the test is false
+
+x = int(input('Enter an integer: '))
+
+if x % 2 == 0:
+	print('')
+	print('Even')
+else:
+	print('')
+	print('Odd')
+print('Done with conditional')
+
+x % 2 evaluates to true
+
+== is used for comparison, = is assignment
+
+the indentation is important
+
+if x % 2 == 0:
+	if x % 3 == 0:
+		print('Divisible by 2 and 3')
+	print('is divisible by 2')
+elif x % 3 == 0:
+	print('is divisible by 3')
+
+if x < y and x < z:
+	print('x is the least')
+elif x < y:
+	print('x is smaller')
+else:
+	print('y is smaller')
+
+if <condition> :
+if <condition>:
+else:
+
+if <condition>
+
+elif <condition>
+
+else <condition>
+
+x = float(input("Enter a number for x: "))
+y = float(input("Enter a number for y: "))
+if x == y:
+	print("x and y are equal")
+	if y != 0:
+		print("therefore, x / y is", x / y)
+elif x < y:
+	print("x is smaller")
+else:
+	print("y is smaller")
+
+print("thanks!")
+
+Strings, Branching and Iteration
+
+BRANCHING
+
+decisions, algorithms
+
+variable names
+
+- descriptive
+-meaningful
+-helps you read code
+-cannot be keywords
+
+value
+
+-information stored
+-can be updated
+
+variable binding
+
+right hand side = value
+left hand side = variable
+
+x = 2 // 2
+x = x * x // 4
+y = x + 1 // y = 5
+
+int
+
+float
+
+bool
+
+string
+
+letters, special characters, spaces, sequences of characters, spaces, digits
+
+enclose in double or single quotes
+
+concatenate
+
+overloaded operators
+
+type of an object tells an operation important information
+
+concatenation +
+successive concatenation *
+len('charles') the length
+'eric'[1] // r
+begins with index 0 attempting to index beyond -1 is error
+'eric'[1:3] slicing // ri
